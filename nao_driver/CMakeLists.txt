@@ -14,6 +14,8 @@ find_package(catkin REQUIRED COMPONENTS
 find_package(NAOqi QUIET COMPONENTS
     alcommon
     alvision
+    almotion
+    almemory
     alerror
     alvalue)
 
